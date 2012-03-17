@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fam.iml" filepath="$PROJECT_DIR$/Fam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fam-grailsPlugins.iml" filepath="$PROJECT_DIR$/Fam-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+
