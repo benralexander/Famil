@@ -6,6 +6,7 @@ import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.web.multipart.MultipartHttpServletRequest
 import grails.plugins.springsecurity.Secured
 import re.sec.ReUser
+import org.codehaus.groovy.grails.commons.ApplicationHolder
 
 class BenController {
     def springSecurityService
@@ -45,11 +46,10 @@ class BenController {
         redirect(action: "show", id: papaInstance.id)
     }
 
-    //  @Secured (['IS_AUTHENTICATED_REMEMBERED'])
-    //  @Secured (['IS_AUTHENTICATED_FULLY'])
-    @Secured(['ROLE_USER'])
+//   @Secured(['ROLE_USER'])
     def show() {
-        println ("Hello there,${currentUser ()}")
+      //  println ("Hello there,${currentUser ()}")
+        println ("Hello there.  your dir is ${ApplicationHolder.getApplication().getMainContext().getResource("/").getFile().getAbsolutePath()}")
         OutputStream out = response.getOutputStream()
         String movieName =  params.movieName
         Movie m = Movie.findByName(movieName)

@@ -1,4 +1,5 @@
 import re.disp.Movie
+import re.disp.Sounds
 import grails.util.GrailsUtil
 import re.sec.ReRole
 import org.springframework.security.core.userdetails.User
@@ -7,6 +8,7 @@ import re.sec.ReUserReRole
 import org.springframework.security.core.context.SecurityContextHolder
 import org.springframework.security.web.context.HttpSessionSecurityContextRepository
 import org.apache.commons.logging.LogFactory
+import re.disp.Sounds
 
 class BootStrap {
     def springSecurityService
@@ -83,10 +85,18 @@ class BootStrap {
 
 
 
-        if (!Movie.count()!=3) {
-            new Movie("/dev/re/web-app/movies/Take_0004.mov").save(failOnError: true)
-            new Movie("/dev/re/web-app/movies/Take_helicopter.mov").save(failOnError: true)
-            new Movie("/dev/re/web-app/movies/morfo_viking.mp4").save(failOnError: true)
+        if (!(Movie.count()>=3)) {
+            new Movie("./movies/Take_0004.mov").save(failOnError: true)
+            new Movie("./movies/Take_helicopter.mov").save(failOnError: true)
+            new Movie("./movies/morfo_viking.mp4").save(failOnError: true)
+        }
+        if (!(Sounds.count()>=6)) {
+            new Sounds("./songs/Track01.wav").save(failOnError: true)
+            new Sounds("./songs/Track02.wav").save(failOnError: true)
+            new Sounds("./songs/Track03.wav").save(failOnError: true)
+            new Sounds("./songs/Track04.wav").save(failOnError: true)
+            new Sounds("./songs/Track05.wav").save(failOnError: true)
+            new Sounds("./songs/Track06.wav").save(failOnError: true)
         }
     }
     def destroy = {

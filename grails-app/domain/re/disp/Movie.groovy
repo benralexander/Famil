@@ -1,5 +1,7 @@
 package re.disp
 
+import static org.codehaus.groovy.grails.commons.ApplicationHolder.getApplication
+
 class Movie extends Disp {
     File movieFile=null
 
@@ -13,7 +15,8 @@ class Movie extends Disp {
 
     Movie(String movieReference) {
         super()
-        File tMovieFile = new File(movieReference)
+        File tMovieFile =  getApplication().getMainContext().getResource(movieReference).getFile()
+        //File tMovieFile = new File(movieReference)
         this.name = tMovieFile.getName()
         movieFile = tMovieFile
     }

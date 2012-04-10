@@ -100,12 +100,27 @@
 			<h1>Welcome to the Alexander/Slater family web site</h1>
             <div id="ourLogo" role="banner"><img src="${resource(dir: 'images', file: 'hi2.png')}" alt="hi"/></div>
 			<div id="controller-list" role="navigation">
-				<h2>Available Areas:</h2>
+				<h2>The family pages</h2>
 				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.name}'s pages</g:link></li>
-					</g:each>
+
+                        <li class="controller"><a href="/Family/ben/index">Ben</a></li>
+
+                        <li class="controller"><a href="/Family/clara/index">Clara</a></li>
+
+                        <li class="controller"><a href="/Family/lucas/index">Lucas</a></li>
+
+                        <li class="controller"><a href="/Family/lauren/index">Lauren</a></li>
+
+
 				</ul>
+
+                <h2>Plus special guest</h2>
+
+                <ul>
+
+                    <li class="controller"><a href="/Family/jeffryBarnes/index">Jeffrey Barnes</a></li>
+
+                </ul>
 			</div>
 		</div>
 	</body>
