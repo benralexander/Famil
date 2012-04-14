@@ -72,7 +72,6 @@ class JeffryBarnesController {
         }
 
         println ("Hello there.  your songs dir is ${getApplication().getMainContext().getResource("./songs").getFile().getAbsolutePath()}")
-//        println ("Hello there.  your webapp movies dir is ${getApplication().getMainContext().getResource("./web-app/movies").getFile().getAbsolutePath()}")
         OutputStream out = response.getOutputStream()
         System.out.println("params.id=${params.id}")
         String soundName =  params.soundName
