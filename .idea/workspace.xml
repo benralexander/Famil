@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/grails-app/controllers/re/own/JeffryBarnesController.groovy" line="78" />
+    <bookmark url="file://$PROJECT_DIR$/grails-app/controllers/re/own/JeffryBarnesController.groovy" line="77" />
   </component>
   <component name="CCaseConfig">
     <option name="checkoutReserved" value="false" />
@@ -181,7 +181,7 @@
           <file leaf-file-name="JeffryBarnesController.groovy" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grails-app/controllers/re/own/JeffryBarnesController.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="74" column="0" selection-start="2639" selection-end="2639" vertical-scroll-proportion="0.36690646">
+                <state line="75" column="0" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.40767387">
                   <folding />
                 </state>
               </provider>
@@ -303,8 +303,8 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="96" />
-    <option name="y" value="387" />
+    <option name="x" value="27" />
+    <option name="y" value="40" />
     <option name="width" value="1920" />
     <option name="height" value="1067" />
   </component>
@@ -795,7 +795,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="96" y="387" width="1920" height="1067" extended-state="0" />
+    <frame x="27" y="40" width="1920" height="1067" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -983,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/re/own/JeffryBarnesController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="2639" selection-end="2639" vertical-scroll-proportion="0.36690646">
+        <state line="75" column="0" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.40767387">
           <folding />
         </state>
       </provider>
