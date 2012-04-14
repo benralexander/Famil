@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/grails-app/controllers/re/own/JeffryBarnesController.groovy" line="77" />
+    <bookmark url="file://$PROJECT_DIR$/grails-app/controllers/re/own/JeffryBarnesController.groovy" line="71" />
   </component>
   <component name="CCaseConfig">
     <option name="checkoutReserved" value="false" />
@@ -181,7 +181,7 @@
           <file leaf-file-name="JeffryBarnesController.groovy" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grails-app/controllers/re/own/JeffryBarnesController.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="75" column="0" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.40767387">
+                <state line="61" column="0" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.38129497">
                   <folding />
                 </state>
               </provider>
@@ -983,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/re/own/JeffryBarnesController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.40767387">
+        <state line="61" column="0" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.38129497">
           <folding />
         </state>
       </provider>

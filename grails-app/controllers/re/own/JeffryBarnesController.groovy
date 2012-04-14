@@ -59,12 +59,6 @@ class JeffryBarnesController {
 
     def show() {
         println ("Hello there.  your root dir is ${getApplication().getMainContext().getResource("/").getFile().getAbsolutePath()}")
-     //   println ("Hello there.  your abs song dir dir is ${getApplication().getMainContext().getResource("C:\\apache-tomcat-7.0.26\\webapps\\Family\\songs").getFile().getAbsolutePath()}")
-        try{
-            println ("Hello there.  your track01 song dir is ${getApplication().getMainContext().getResource("./songs/Track01.wav").getFile().getAbsolutePath()}")
-        }  catch(Exception e) {
-              e.printStackTrace()
-        }
         try{
             println ("Hello there.  your track01 no per ssong dir is ${getApplication().getMainContext().getResource("songs/Track01.wav").getFile().getAbsolutePath()}")
         }  catch(Exception e) {
