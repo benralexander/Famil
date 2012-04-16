@@ -1,9 +1,9 @@
 package re.own
 
+import static org.codehaus.groovy.grails.commons.ApplicationHolder.*
 import org.springframework.dao.DataIntegrityViolationException
 import re.disp.Sounds
 import org.codehaus.groovy.grails.commons.ApplicationHolder
-import static org.codehaus.groovy.grails.commons.ApplicationHolder.*
 
 class JeffryBarnesController {
 

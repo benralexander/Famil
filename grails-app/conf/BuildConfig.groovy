@@ -6,6 +6,7 @@ grails.project.source.level = 1.6
 grails.project.target.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
+
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
@@ -14,6 +15,11 @@ grails.project.dependency.resolution = {
     }
     log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     checksums true // Whether to verify checksums on resolve
+
+//    codenarc.properties {
+//        GrailsPublicControllerMethod.enabled = false
+//        EmptyIfStatement.priority = 1
+//    }
 
     repositories {
         inherits true // Whether to inherit repository definitions from plugins
@@ -35,6 +41,7 @@ grails.project.dependency.resolution = {
         runtime 'mysql:mysql-connector-java:5.1.18'
         // runtime 'mysql:mysql-connector-java:5.1.16'
     }
+
 
     plugins {
         compile ":hibernate:$grailsVersion"

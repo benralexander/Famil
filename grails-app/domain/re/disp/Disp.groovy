@@ -5,6 +5,15 @@ class Disp {
     Disp(){
     }
 
+    @Override
+    public String toString() {
+        return "Disp{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", version=" + version +
+                '}';
+    }
+
     Disp(String p_name){
         name = p_name
     }

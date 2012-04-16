@@ -16,14 +16,9 @@ class Sounds extends Disp {
     Sounds(String soundReference) {
         super()
         try{
-            println ("Hello from sounds.  see this? ${getApplication().getMainContext().getResource("./songs/Track01.wav").getFile().getAbsolutePath()}")
-        }  catch(Exception e) {
-            e.printStackTrace()
-        }
-        try{
-            println ("Hello from sounds.  and what about this ? ${getApplication().getMainContext().getResource(soundReference).getFile().getAbsolutePath()}")
-        }  catch(Exception e) {
-            e.printStackTrace()
+            println ("Problem locating sounds file: ${getApplication().getMainContext().getResource(soundReference).getFile().getAbsolutePath()}")
+        }  catch(FileNotFoundException fileNotFoundException) {
+            fileNotFoundException.printStackTrace()
         }
 
         File tSoundFile =  getApplication().getMainContext().getResource(soundReference).getFile()

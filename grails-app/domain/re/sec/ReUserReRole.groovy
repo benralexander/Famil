@@ -16,6 +16,16 @@ class ReUserReRole implements Serializable {
                 other.reRole?.id == reRole?.id
     }
 
+    @Override
+    public String toString() {
+        return "ReUserReRole{" +
+                "id=" + id +
+                ", reUser=" + reUser +
+                ", reRole=" + reRole +
+                ", version=" + version +
+                '}';
+    }
+
     int hashCode() {
         def builder = new HashCodeBuilder()
         if (reUser) builder.append(reUser.id)

@@ -16,9 +16,17 @@ class Movie extends Disp {
     Movie(String movieReference) {
         super()
         File tMovieFile =  getApplication().getMainContext().getResource(movieReference).getFile()
-        //File tMovieFile = new File(movieReference)
         this.name = tMovieFile.getName()
         movieFile = tMovieFile
+    }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "id=" + id +
+                ", movieFile=" + movieFile +
+                ", version=" + version +
+                '}';
     }
 
     static constraints = {

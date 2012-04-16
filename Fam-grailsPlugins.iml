@@ -21,6 +21,7 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$USER_HOME$/.grails/2.0.1/projects/Family/plugins/codenarc-0.17" />
     <content url="file://$USER_HOME$/.grails/2.0.1/projects/Family/plugins/flash-player-1.4">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.1/projects/Family/plugins/flash-player-1.4/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.1/projects/Family/plugins/flash-player-1.4/grails-app/taglib" isTestSource="false" />
@@ -58,7 +59,15 @@
     <orderEntry type="library" scope="PROVIDED" name="grails-2.0.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (Fam-grailsPlugins)">
-        <CLASSES />
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.4.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.18.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.gmetrics/GMetrics/jars/GMetrics-0.5.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codenarc/CodeNarc/jars/CodeNarc-0.17.jar!/" />
+        </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>

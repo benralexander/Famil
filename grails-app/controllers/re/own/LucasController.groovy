@@ -15,9 +15,6 @@ class LucasController {
         [lucasInstanceList: Lucas.list(params), lucasInstanceTotal: Lucas.count()]
     }
 
-    def kingauthur(){
-    }
-
     def create() {
         [lucasInstance: new Lucas(params)]
     }

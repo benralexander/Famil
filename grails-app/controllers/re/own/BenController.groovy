@@ -5,7 +5,6 @@ import re.disp.Movie
 import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.web.multipart.MultipartHttpServletRequest
 import grails.plugins.springsecurity.Secured
-import re.sec.ReUser
 import org.codehaus.groovy.grails.commons.ApplicationHolder
 
 class BenController {
@@ -64,9 +63,6 @@ class BenController {
         [papaInstance: papaInstance]
     }
 
-    def edit() {
-     }
-
     def update() {
         def papaInstance = Ben.get(params.id)
         if (!papaInstance) {
@@ -116,9 +112,5 @@ class BenController {
         }
     }
 
-    private String currentUser () {
-        Integer idOfCurrentUser =   springSecurityService?.principal?.id
-        return ReUser.get(idOfCurrentUser)
-    }
 
 }
